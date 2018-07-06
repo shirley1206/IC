@@ -1,39 +1,147 @@
-/*Headings*/
-
-.html{
+.html {
     background: #ffffff;
+    font-family: 'Open Sans', sans-serif;
 }
 
-.body{
-    background: #d8d8d8;
+.wrapper {
+    background: #D8D8D8;
+    margin: 0px auto;
 }
 
-.secbar{
+.navbar-brand {
+    margin-left: 30px;
+}
+
+.nav {
+    margin-right: 25px;
+}
+
+.nav-link {
+    color: #00838F;
+}
+
+.secbar {
+    font-family: "Open Sans";
     background: #4A4A4A;
+    color: white;
+    height: 8vh;
+    padding: 12px 40px;
+}
+
+.actiongp {
+    margin: 30px auto;
+    width: 90%;
+}
+
+.flex-end {
+    justify-content: flex-end;
+}
+
+.btn {
+    display: inline-block;
+    background: #ffffff;
+    margin-left: 10px;
 }
 
 
-.h1{
-    font-size: 24px;
-    font-weight: 400px;
+.btn-link {
+    text-align: right;
+    margin: 0px 30px;
 }
 
-.h2{
-    font-size: 22px;
-    font-weight: 400px;
-}
-.h3{
-    font-size: 20px;
-    font-weight: 400px;
+.active {
+    background: #4A90E2;
+    color: #ffffff;
 }
 
-.h4{
-    font-size: 18px;
-    font-weight: 400px;
+.inactive {
+    background: #FFFFFF;
+    color: #000000;
 }
 
-.h5{
+#filter1 {
+    margin-left: -20px;
+}
+
+#filter2 {
+    margin-right: 40px;
+}
+
+#collapse {}
+
+#pen {
+    display: none;
+    margin-left: 600px;
+    padding-left: -30px
+}
+
+tr:hover #pen {
+    display: inline-block;
+}
+
+#eye {
+    display: none;
+}
+
+tr:hover #eye {
+    display: inline-block;
+}
+
+.table {
+    border-radius: 5px;
+    width: 90%;
+    margin: 0px auto;
+    float: none;
+    box-shadow: 0 3px 4px 0 rgba(0, 0, 0, .14), 0 3px 3px -2px rgba(0, 0, 0, .2), 0 1px 8px 0 rgba(0, 0, 0, .12)
+}
+
+.m-t-40 {
+    margin-top: 40px;
+}
+
+.modhead {
+    background: #D4E6F9;
+    text-indent: 1%;
+}
+
+.leshead {
+    background: #F4F4F4;
+    text-indent: 2%;
+}
+
+.la {
+    background: #FFFFFF;
+    text-indent: 8%;
+}
+
+.btn-success {
+    background: #28A745;
+    color: #ffffff;
+}
+
+.btn-info {
+    background: #4A90E2;
+    color: #ffffff;
+    border-color: #4A90E2;
+
+}
+
+.btn-info:hover,
+.btn-info:focus,
+.btn-info:active {
+    background: #205DA4;
+    color: #ffffff;
+}
+
+.btn-row {
+    margin-left: 700px;
+    border: 1px solid transparent;
+    padding: .2rem .5rem;
+    font-size: 12px;
+}
+
+
+.h5 {
     font-size: 16px;
     font-weight: 400px;
 }
-
