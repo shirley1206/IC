@@ -58,11 +58,11 @@
                         <button type="button" class="btn fa fa-filter"></button>
                         <button type="button" class="btn dropdown-toggle dropdown-toggle-split" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"></button>
                         <div class="dropdown-menu">
-                            <a class="dropdown-item" href="#">Action</a>
-                            <a class="dropdown-item" href="#">Another action</a>
-                            <a class="dropdown-item" href="#">Something else here</a>
+                            <a class="dropdown-item" href="#">Assessment</a>
+                            <a class="dropdown-item" href="#">Reading</a>
+                            <a class="dropdown-item" href="#">Video</a>
                             <div class="dropdown-divider"></div>
-                            <a class="dropdown-item" href="#">Separated link</a>
+                            <a class="dropdown-item" href="#">Discussion</a>
                         </div>
                     </div>
                 </div>
@@ -76,7 +76,8 @@
                     </div>
 
                     <div>
-                        <button type="button" class="btn toggleBtn" data-toggle="button" aria-pressed="false" autocomplete="off"><i class="fa fa-compress" aria-hidden="true"></i></button>
+                        <button type="button" class="btn" data-toggle="button" aria-pressed="false" autocomplete="off"><i class="fa fa-compress" aria-hidden="true"></i></button>
+                        <button type="button" class="btn" data-toggle="button" aria-pressed="false" autocomplete="off"><i class="fa fa-expand" aria-hidden="true"></i></button>
                     </div>
                     <div>
                         <button type="button" class="btn btn-success" data-toggle="button" aria-pressed="false" autocomplete="off"><i class="fa fa-external-link" aria-hidden="true"></i><span>&nbsp;&nbsp;</span>Open Section</button>
@@ -184,12 +185,6 @@
 
     </div>
 
-    <script>
-        $(".toggleBtn").on('click', function() {
-            $(this).children('.fa-compress, .fa-expand').toggleClass("fa-expand fa-compress");
-        });
-
-    </script>
 
 
 
